@@ -1,4 +1,9 @@
-let a =25,b = 38,c = 55,d = 59;
+const readlineSync = require("readline-sync");
+let a = parseInt(readlineSync.question("Enter the value of a : "));
+let b = parseInt(readlineSync.question("Enter the value of b : "));
+let c = parseInt(readlineSync.question("Enter the value of c : "));
+let d = parseInt(readlineSync.question("Enter the value of d : "));
+//let a =25,b = 38,c = 55,d = 59;
 //let a = parseInt("enter the first number:");
 //let b = parseInt("enter the second number:");
 //let c = parseInt("enter the third number:");
@@ -71,8 +76,8 @@ else{
   }
   else if(b>=a && b>=c){
     second=b;
-    third=a;
-    fourth=c;
+    third=c;
+    fourth=a;
   }
   else{
     second=c;
@@ -81,4 +86,4 @@ else{
   }
 }
 
-console.log(`from the greatest to the least values:${first},${second},${third},${fourth}`)
+console.log(`from the greatest to the least values : ${first},${second},${third},${fourth}`)
