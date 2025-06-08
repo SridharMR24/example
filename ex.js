@@ -1,8 +1,12 @@
 const readlineSync = require("readline-sync");
-let a = parseInt(readlineSync.question("Enter the value of a : "));
-let b = parseInt(readlineSync.question("Enter the value of b : "));
-let c = parseInt(readlineSync.question("Enter the value of c : "));
-let d = parseInt(readlineSync.question("Enter the value of d : "));
+//let a = parseInt(readlineSync.question("Enter the value of a : "));
+//let b = parseInt(readlineSync.question("Enter the value of b : "));
+//let c = parseInt(readlineSync.question("Enter the value of c : "));
+//let d = parseInt(readlineSync.question("Enter the value of d : "));
+let a = Number(readlineSync.question("Enter the value of a : "));
+let b = Number(readlineSync.question("Enter the value of b : "));
+let c = Number(readlineSync.question("Enter the value of c : "));
+let d = Number(readlineSync.question("Enter the value of d : "));
 //let a =25,b = 38,c = 55,d = 59;
 //let a = parseInt("enter the first number:");
 //let b = parseInt("enter the second number:");
